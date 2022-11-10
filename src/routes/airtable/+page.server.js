@@ -4,12 +4,12 @@ import { env } from '$env/dynamic/private';
 const myBaseId = import.meta.env.VITE_AIRTABLE_BASE_ID;
 
 const myBaseConfig = {
-    tableName: 'Organizations',
+    tableName: 'Table 1',
     selectConfig: {
         pageSize: 100,
         fields: [
-            "Org Name",
-            "Website",
+            "Name",
+            "Notes",
         ],
     },
 };
